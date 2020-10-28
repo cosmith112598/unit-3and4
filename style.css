@@ -48,3 +48,8 @@ nav {
 body {
     margin: 50px;
 }
+
+footer{
+    display: flex;
+    justify-content: center;
+}
