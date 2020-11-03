@@ -1,15 +1,21 @@
 * {
     margin: 0px;
     background-color: #79A1E8;
+    font-family:'Open Sans';
+}
+/*link style */
+a:hover{
+    background-color: black;
+    color: seagreen;
 }
 /* Navigation */
 nav {
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
     align-items: center;
     position: fixed;
     margin: 0px;
-    width: 100%;
+    padding: 0px;
     height: 103px;
     background-color: #8c71e8;
 }
@@ -17,21 +23,24 @@ nav {
 #nav-list {
     display: flex;
     list-style: none;
-    width: 480px;
+    width: 100%;
     justify-content: space-around;
-    color: #BB85FF;
-    margin: 0px;
-    padding: 0px;
+    margin: 0px !important;
+    padding: 0px !important;
     height: 103px;
     list-style-type: none;
     background-color: #8c71e8;
     position: fixed;
     top: 0;
+    left: 0;
+    border: rgb(128, 0, 128) solid 3px;
 }
 @media (max-width: 28.75em) {
     
 }
-
+#nav-list a:active {
+    color: pink;
+  }
 #nav-list a {
     display: block;
     font-size: 26px;
@@ -44,24 +53,46 @@ nav {
 }
 #nav-list a {
     text-decoration: none;
-    color: #BB85FF;
+    color: #FFF;
 }
 
 /* Headers */
 
 h1, h2 {
-    color: aqua;
+    color: #000;
+    margin: 5px;
+}
+h1 {
+    font-size: 32px;
+    font-style: italic;
+    line-height: normal;
+    text-align: left;
 }
 
 /* Paragraphs */
 
 p {
-    color: rgb(128, 0, 128)
+    color: rgb(128, 0, 128);
+}
+/* Class Rules */
+.goals {
+    padding: 10px;
+}
+.why-us {
+    padding: 10px;
+}
+dl { 
+    color: rgb(128, 0, 128);
+}
+ol, ul { 
+    color: rgb(128, 0, 128);
 }
 body {
-    margin: 50px;
+    margin-top: 105px;
+    padding: 10px;
+    border: black solid 3px;
 }
-
+/*footer */
 footer{
     display: flex;
     justify-content: center;
