@@ -2,6 +2,7 @@
     margin: 0px;
     background-color: #79A1E8;
 }
+/* Navigation */
 nav {
     display: flex;
     justify-content: flex-end;
@@ -44,6 +45,18 @@ nav {
 #nav-list a {
     text-decoration: none;
     color: #BB85FF;
+}
+
+/* Headers */
+
+h1, h2 {
+    color: aqua;
+}
+
+/* Paragraphs */
+
+p {
+    color: rgb(128, 0, 128)
 }
 body {
     margin: 50px;
