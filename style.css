@@ -62,12 +62,13 @@ h2 {
     color: rgb(209, 92, 92);
     margin: 5px;
     font-size: 36px;
+    text-align: center;
 }
 h1 {
     font-size: 42px;
     font-style: italic;
     line-height: normal;
-    text-align: left;
+    text-align: center;
     color: rgb(209, 92, 92);
     margin: 5px;
 }
@@ -77,17 +78,20 @@ h1 {
 p {
     color: rgb(128, 0, 128);
     font-size: 24px;
+    text-align: center;
 }
 /* Div Rules */
 #goals {
     padding: 10px;
     font-size: 24px;
+    text-align: center;
 }
 #why-us {
     padding: 10px;
 }
 dl, dd, dt { 
     color: rgb(128, 0, 128);
+    text-align: center;
 }
 dt {
     font-size: 32px;
@@ -97,7 +101,7 @@ dd {
 }
 ol, ul { 
     color: rgb(128, 0, 128);
-    list-style-type: lower-greek;
+    list-style-type: square;
 }
 /* Lnks??*/
 a {
