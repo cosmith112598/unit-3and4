@@ -33,7 +33,7 @@ nav {
     position: fixed;
     top: 0;
     left: 0;
-    border: rgb(128, 0, 128) solid 3px;
+    border: rgb(128, 0, 128) solid 5px;
 }
 @media (max-width: 28.75em) {
     
@@ -44,7 +44,7 @@ nav {
 #nav-list a {
     display: block;
     font-size: 30px;
-    padding: 2.3rem;
+    padding: 2.35rem;
     background-color: #8c71e8;
     
 }
@@ -53,13 +53,13 @@ nav {
 }
 #nav-list a {
     text-decoration: none;
-    color: #FFF;
+    color: rgb(209, 92, 92);
 }
 
 /* Headers */
 
 h2 {
-    color: #000;
+    color: rgb(209, 92, 92);
     margin: 5px;
     font-size: 36px;
 }
@@ -68,7 +68,7 @@ h1 {
     font-style: italic;
     line-height: normal;
     text-align: left;
-    color: #000;
+    color: rgb(209, 92, 92);
     margin: 5px;
 }
 
