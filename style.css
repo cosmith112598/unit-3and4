@@ -48,8 +48,8 @@ nav {
     background-color: #8c71e8;
     
 }
-#nav-list a :hover {
-    background: #8c71e8;
+#nav-list li a:hover {
+    background: rebeccapurple;
 }
 #nav-list a {
     text-decoration: none;
@@ -97,6 +97,7 @@ dd {
 }
 ol, ul { 
     color: rgb(128, 0, 128);
+    list-style-type: lower-greek;
 }
 body {
     margin-top: 105px;
