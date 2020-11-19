@@ -1,6 +1,6 @@
 * {
     margin: 0px;
-    background-color: #79A1E8;
+    background-color: #a4b6d4;
     font-family:'Open Sans';
 }
 /*link style */
@@ -43,7 +43,7 @@ nav {
   }
 #nav-list a {
     display: block;
-    font-size: 26px;
+    font-size: 30px;
     padding: 2.3rem;
     background-color: #8c71e8;
     
@@ -58,31 +58,42 @@ nav {
 
 /* Headers */
 
-h1, h2 {
+h2 {
     color: #000;
     margin: 5px;
+    font-size: 36px;
 }
 h1 {
-    font-size: 32px;
+    font-size: 42px;
     font-style: italic;
     line-height: normal;
     text-align: left;
+    color: #000;
+    margin: 5px;
 }
 
 /* Paragraphs */
 
 p {
     color: rgb(128, 0, 128);
+    font-size: 24px;
 }
 /* Div Rules */
 #goals {
     padding: 10px;
+    font-size: 24px;
 }
 #why-us {
     padding: 10px;
 }
-dl { 
+dl, dd, dt { 
     color: rgb(128, 0, 128);
+}
+dt {
+    font-size: 32px;
+}
+dd {
+    font-size: 24px;
 }
 ol, ul { 
     color: rgb(128, 0, 128);
@@ -90,7 +101,7 @@ ol, ul {
 body {
     margin-top: 105px;
     padding: 10px;
-    border: black solid 3px;
+    border: rgb(128, 0, 128) solid 5px;
     height: 100vh;
 }
 /*footer */
